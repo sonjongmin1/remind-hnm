@@ -2,6 +2,11 @@
     display: flex;
     justify-content: flex-end;
     margin:20px;
+    cursor: pointer;
+}
+
+.login{
+    padding-left: 5px;
 }
 
 .nav-section{
@@ -37,4 +42,45 @@
 
 .search-box input:focus {
     outline: none
+}
+
+.card{
+  border:none !important;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.choice {
+    font-size: 11px;
+    color: #63786a;
+    font-weight: bold;
+    height: 20px;
+}
+
+.new-product {
+    font-size: 11px;
+    height: 20px;
+}
+
+.product-detail-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product-info {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.drop-down {
+    margin-top: 20px;
+}
+
+.add-button {
+    margin-top: 20px;
+    width: 100%;
 }
